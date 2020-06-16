@@ -1,2 +1,2 @@
 const conf = require('config');
-console.log(conf.env.TEST);
+console.log(conf.ENV.TEST);
