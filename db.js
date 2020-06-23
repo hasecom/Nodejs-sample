@@ -51,6 +51,7 @@ MongoClient.connect(url, connectOption, (err, client) => {
   // db.collection('users').update(
   //   { name:'hase' },{ name:'hase', age:'23' }, { upsert:true }
   // );
+  
 
   /*DBから値を取得*/
   db.collection('users').find({}).toArray(function(err,result){
